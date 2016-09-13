@@ -13,7 +13,7 @@ body{
 #wrapper{
   
     width: 80%;
-    height: 1600px;
+
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -89,7 +89,6 @@ a.logo-h:hover{
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
-
 }
 
 th,td {
