@@ -5,13 +5,15 @@ body{
     padding: 0;
     width: 100%;
     
-    background-image: url("images/b1.jpg");
+    background-image: url("images/b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #wrapper{
   
     width: 80%;
-    height: 1000px;
+    height: 1600px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
@@ -41,8 +43,13 @@ a.logo-h:hover{
 
 #content > iframe{
     float: right;
-    margin-top:20px;
+    margin-top:50px;
     margin-right:50px;
+    width: 30%;
+}
+
+.c1{
+    margin-bottom:50px;
 }
 
 .c1{
@@ -62,3 +69,66 @@ a.logo-h:hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
+
+#rstats{
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rstats > h1{
+   font-family: 'Righteous', cursive;
+   font-size: 30px;
+   text-decoration: underline;
+
+}
+
+#rstats > table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+
+}
+
+th,td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+thead{
+    border-bottom: 1px solid #000;
+}
+
+#footer{
+    width:80%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom:5px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+}
+
+#footer > i > span{
+    color: royalblue;
+}
+
+#footer > i > span:hover{
+cursor: pointer
+}
+
+
+i.right{
+    float: right;
+    margin-right:20px;
+}
+
+ 
